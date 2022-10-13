@@ -1,0 +1,2 @@
+*.sh text eol=lf
+*.json test eol=lf

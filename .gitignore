@@ -1,0 +1,117 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+doc/build
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Vagrant
+.vagrant
+.cached_downloads
+
+#PyCharm
+.idea
+.sublimelinterrc
+
+node_modules
+
+workspace
+.pytest_cache
+.mypy_cache
+
+.tmp_docs/
+built_docs/
+
+# VSCode
+.vscode
+
+# Helm files
+requirements.lock
+*.tgz
+Chart.lock
+
+# Secrets
+secrets.*.yaml
+!!secrets.dev.local.yaml
+!! secrets.template.yaml
+*.pem
+
+# Allow a test server certificate for testing ssl in unit tests
+!external/log_agent/test/data/server.pem
+
+deployment_templates/local/.env
+external/presto_setup/.env
+external/presto_setup/config/hadoop-hive.env
+.*.env
+
+# Visual Studio
+.vs/
+bin/
+obj/
+packages/
+*.exe
+*.msi
+!app.manifest
+
+# ASM OIB SDK
+/external/asm/sdk/
+
+# ICT Log Agent Build Diretory
+/external/log_agent/build/
+
+# Presto setup
+/external/presto_setup/data/*
+
+# Django Server
+/src/server/runtime_data/
+
+# Mac OS
+.DS_Store
